@@ -1,10 +1,10 @@
+import base64
+
 from flask import Flask, request, jsonify, send_file
 from flask_cors import CORS
 import os
 from werkzeug.utils import secure_filename
 import torch
-from PIL import Image
-import io
 from model import UNetColorization, colorize_image  # Assuming you save the model code in model.py
 
 app = Flask(__name__)
