@@ -134,7 +134,11 @@ def colorize_image(model, image_path, output_path, device='cpu'):
     plt.imshow(input_image, cmap='gray')
     plt.title('Input (Grayscale)')
     plt.axis('off')
-
+    
+    plt.subplot(132)
+    plt.imshow(img)
+    plt.title('Original')
+    plt.axis('off')
 
     plt.subplot(133)
     plt.imshow(output_image)
