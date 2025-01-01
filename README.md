@@ -1,4 +1,4 @@
-To run the project: \n
+To run the project: <br>
 Open this project in your favorite python IDE.
 Run: pip install -r requirements.txt
 Run: backendapi.py
