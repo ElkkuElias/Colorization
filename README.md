@@ -1,5 +1,6 @@
 To run the project: <br>
-Open this project in your favorite python IDE.
-Run: pip install -r requirements.txt
-Run: backendapi.py
-Once it is up and running: Open the fastfront.html in any browser.
+1. Open this project in your favorite python IDE. <br>
+2. Run: pip install -r requirements.txt <br>
+3. Run: backendapi.py <br>
+4. Once it is up and running: Open the fastfront.html in any browser. <br>
+
